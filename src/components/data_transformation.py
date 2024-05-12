@@ -1,6 +1,5 @@
 import sys
 from dataclasses import dataclass
-from src.utils import save_object
 
 import numpy as np 
 import pandas as pd
@@ -25,7 +24,7 @@ class DataTransformation:
 
     def get_data_transformer_object(self):
         '''
-        This function is responsible for data trnasformation
+        This function si responsible for data trnasformation
         
         '''
         try:
